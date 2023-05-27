@@ -28,7 +28,7 @@ export default async function ProductsLayout({
                 {products.map(
                     ({ id, title }: { id: number; title: string }) => (
                         <li key={id}>
-                            <Link href={`/product/${id}`}>{title}</Link>
+                            <Link href={`/products/${id}`}>{title}</Link>
                         </li>
                     )
                 )}
