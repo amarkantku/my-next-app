@@ -1,10 +1,10 @@
 import React from 'react';
 type TestProps = {
-    title: string;
+  title: string;
 };
 
 const Test = ({ title }: TestProps) => {
-    return <div>{title}</div>;
+  return <div>{title}</div>;
 };
 
 export default Test;
